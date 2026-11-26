@@ -8,7 +8,7 @@ from model import CNNEmotion
 from sklearn.metrics import confusion_matrix, classification_report
 
 # Paths
-base_path = r"D:\MNU\Semester 5\Computer Vision\Project"
+base_path = "data"  # folder containing train/ and test/ (FER-2013)
 test_dir = os.path.join(base_path, "test")
 classes = sorted(os.listdir(test_dir))
 

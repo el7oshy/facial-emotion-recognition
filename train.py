@@ -10,8 +10,8 @@ from dataset import ImageEmotionDataset
 from model import CNNEmotion
 
 # ---------------- Paths ----------------
-train_dir =r"D:\MNU\Semster 5\Computer Vision\Project\train"
-test_dir  = r"D:\MNU\Semster 5\Computer Vision\Project\test"
+train_dir = "data/train"
+test_dir  = "data/test"
 
 classes = sorted(os.listdir(train_dir))
 
